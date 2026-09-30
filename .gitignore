@@ -1,0 +1,40 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.secrets/
+credentials/
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+target/
+coverage/
+*.tsbuildinfo
+
+# Personal match data and generated artifacts
+data/
+uploads/
+replays/
+reports/
+artifacts/
+*.dem
+*.dem.bz2
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Local tooling
+.cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
